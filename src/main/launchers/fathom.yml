@@ -1,0 +1,14 @@
+#
+# Stork Packaging
+# https://github.com/fizzed/java-stork
+#
+name: "junit"
+domain: "academy"
+display_name: "junit"
+short_description: "academy:junit"
+type: DAEMON
+main_class: "academy.junit.Launcher"
+platforms: [ WINDOWS, LINUX, MAC_OSX ]
+min_java_version: "1.8"
+min_java_memory: 1024
+symlink_java: true
